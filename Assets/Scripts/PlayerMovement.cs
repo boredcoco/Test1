@@ -43,7 +43,6 @@ public class PlayerMovement : MonoBehaviour
       verticalInput = Input.GetAxisRaw("Vertical");
 
       // when to jump
-      Debug.Log(Input.GetKey(jumpKey) && readyToJump && grounded);
       if (Input.GetKey(jumpKey) && readyToJump && grounded)
       {
         readyToJump = false;
@@ -104,7 +103,6 @@ public class PlayerMovement : MonoBehaviour
     {
       rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
       rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
-      Debug.Log(transform.up * jumpForce);
     }
 
     private void ResetJump()
