@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class HealthManager : MonoBehaviour
 {
@@ -21,9 +22,8 @@ public class HealthManager : MonoBehaviour
       currentHealth -= damage;
       if (currentHealth <= 0)
       {
-        Debug.Log("YOU ARE DEAD");
+        SceneManager.LoadScene(0);
       }
-      Debug.Log(currentHealth / maxHealth);
       slider.value = currentHealth / maxHealth;
     }
 }
