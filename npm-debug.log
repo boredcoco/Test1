@@ -1,0 +1,65 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Applications/2021.3.9f1/Unity.app/Contents/Tools/nodejs/bin/node',
+1 verbose cli   '/Applications/2021.3.9f1/Unity.app/Contents/Tools/nodejs/lib/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'view',
+1 verbose cli   'com.unity.2d.tilemap@1.0.0',
+1 verbose cli   '--registry',
+1 verbose cli   'https://packages.unity.com/' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 verbose config Skipping project config: /Users/faithchua/.npmrc. (matches userconfig)
+5 silly mapToRegistry name com.unity.2d.tilemap
+6 silly mapToRegistry using default registry
+7 silly mapToRegistry registry https://packages.unity.com/
+8 silly mapToRegistry data Result {
+8 silly mapToRegistry   raw: 'com.unity.2d.tilemap',
+8 silly mapToRegistry   scope: null,
+8 silly mapToRegistry   escapedName: 'com.unity.2d.tilemap',
+8 silly mapToRegistry   name: 'com.unity.2d.tilemap',
+8 silly mapToRegistry   rawSpec: '',
+8 silly mapToRegistry   spec: 'latest',
+8 silly mapToRegistry   type: 'tag' }
+9 silly mapToRegistry uri https://packages.unity.com/com.unity.2d.tilemap
+10 verbose request uri https://packages.unity.com/com.unity.2d.tilemap
+11 verbose request no auth needed
+12 info attempt registry request try #1 at 9:04:50 PM
+13 verbose request id f0e95e56fbd11b61
+14 http request GET https://packages.unity.com/com.unity.2d.tilemap
+15 http 404 https://packages.unity.com/com.unity.2d.tilemap
+16 verbose headers { 'x-powered-by': 'Express',
+16 verbose headers   'content-type': 'application/json; charset=utf-8',
+16 verbose headers   'content-length': '37',
+16 verbose headers   vary: 'Accept-Encoding',
+16 verbose headers   date: 'Tue, 16 Jan 2024 02:04:50 GMT' }
+17 silly get cb [ 404,
+17 silly get   { 'x-powered-by': 'Express',
+17 silly get     'content-type': 'application/json; charset=utf-8',
+17 silly get     'content-length': '37',
+17 silly get     vary: 'Accept-Encoding',
+17 silly get     date: 'Tue, 16 Jan 2024 02:04:50 GMT' } ]
+18 verbose stack Error: no such package available : com.unity.2d.tilemap
+18 verbose stack     at makeError (/Applications/2021.3.9f1/Unity.app/Contents/Tools/nodejs/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+18 verbose stack     at CachingRegistryClient.<anonymous> (/Applications/2021.3.9f1/Unity.app/Contents/Tools/nodejs/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+18 verbose stack     at Request._callback (/Applications/2021.3.9f1/Unity.app/Contents/Tools/nodejs/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+18 verbose stack     at Request.self.callback (/Applications/2021.3.9f1/Unity.app/Contents/Tools/nodejs/lib/node_modules/npm/node_modules/request/request.js:187:22)
+18 verbose stack     at emitTwo (events.js:106:13)
+18 verbose stack     at Request.emit (events.js:191:7)
+18 verbose stack     at Request.<anonymous> (/Applications/2021.3.9f1/Unity.app/Contents/Tools/nodejs/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+18 verbose stack     at emitOne (events.js:96:13)
+18 verbose stack     at Request.emit (events.js:188:7)
+18 verbose stack     at IncomingMessage.<anonymous> (/Applications/2021.3.9f1/Unity.app/Contents/Tools/nodejs/lib/node_modules/npm/node_modules/request/request.js:969:12)
+19 verbose statusCode 404
+20 verbose pkgid com.unity.2d.tilemap
+21 verbose cwd /Users/faithchua/Downloads/Test1
+22 error Darwin 23.1.0
+23 error argv "/Applications/2021.3.9f1/Unity.app/Contents/Tools/nodejs/bin/node" "/Applications/2021.3.9f1/Unity.app/Contents/Tools/nodejs/lib/node_modules/npm/bin/npm-cli.js" "view" "com.unity.2d.tilemap@1.0.0" "--registry" "https://packages.unity.com/"
+24 error node v6.10.0
+25 error npm  v3.10.10
+26 error code E404
+27 error 404 no such package available : com.unity.2d.tilemap
+28 error 404
+29 error 404 'com.unity.2d.tilemap' is not in the npm registry.
+30 error 404 You should bug the author to publish it (or use the name yourself!)
+31 error 404 Note that you can also install from a
+32 error 404 tarball, folder, http url, or git url.
+33 verbose exit [ 1, true ]
