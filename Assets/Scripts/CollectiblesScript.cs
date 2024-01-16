@@ -11,4 +11,10 @@ public class CollectiblesScript : MonoBehaviour
       uiControl.UpdateScore();
       gameObject.SetActive(false);
     }
+
+    private void OnTriggerEnter2D()
+    {
+      uiControl.UpdateScore();
+      gameObject.SetActive(false);
+    }
 }
