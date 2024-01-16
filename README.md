@@ -11,3 +11,15 @@ Coins are translucent circles shown below. Collecting them will increase the sco
 ### Enemy cubes
 Enemy cubes are white cubes that move back and forth within a fixed distance, colliding into them will result in the loss of player health. When a player dies, they will be redirected to the main menu directly, where they can choose a game. Generally this game does not end until the player dies, hence there is no way to enter the main menu from here unless the player dies.
 <img width="651" alt="Screenshot 2024-01-15 at 23 51 21" src="https://github.com/boredcoco/Test1/assets/75612806/b6bd4adc-33e3-4177-8a92-7b85271a9023">
+
+## 2d
+The 2D game uses the asset pack and an additional pixel asset pack (for the player sprite) to create a platformer. Player is redirected to main menu when they die or pass the level.
+
+### Coins
+The coins are depicted below and disappear when a player collects them by coming into contact with them, the coins collected increase the player's score.
+
+<img width="626" alt="Screenshot 2024-01-15 at 23 56 15" src="https://github.com/boredcoco/Test1/assets/75612806/b0b5fd5d-48fb-4d29-b02e-9b416f87b07c">
+
+### Spikes
+Spikes are stationary obstacles that are permanent, coming into contact with them will cause the player to lose health. When the player has no health left and dies, the pleyr is redirected to the main menu
+<img width="677" alt="Screenshot 2024-01-15 at 23 56 04" src="https://github.com/boredcoco/Test1/assets/75612806/68ada3b3-e993-47b7-bd35-91c182bd3407">
