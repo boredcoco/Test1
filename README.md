@@ -23,3 +23,9 @@ The coins are depicted below and disappear when a player collects them by coming
 ### Spikes
 Spikes are stationary obstacles that are permanent, coming into contact with them will cause the player to lose health. When the player has no health left and dies, the pleyr is redirected to the main menu
 <img width="677" alt="Screenshot 2024-01-15 at 23 56 04" src="https://github.com/boredcoco/Test1/assets/75612806/68ada3b3-e993-47b7-bd35-91c182bd3407">
+
+### The flag and passing the level
+Passing or coming into contact with the flag means you have passed the level, the main menu will load.
+<img width="655" alt="Screenshot 2024-01-16 at 00 01 25" src="https://github.com/boredcoco/Test1/assets/75612806/0f50ceeb-8e80-4c9d-91e7-f548dab0c3db">
+
+
